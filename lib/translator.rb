@@ -10,7 +10,7 @@ def load_library (yaml)
   data = YAML.load_file ("./lib/emoticons.yml")
   data.each do |meaning, array|
     english, japanese = array
-    library[:get_meaning]
+    library[:get_meaning][japanese] = english
     library[:get_emoticon]
   end
  library
