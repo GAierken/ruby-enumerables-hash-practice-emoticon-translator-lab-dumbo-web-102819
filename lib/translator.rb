@@ -11,6 +11,7 @@ def load_library (yaml)
   data.each do |meaning, array|
     english, japanese = array
     binding.pry
+  end
   # code goes here
 end
 
