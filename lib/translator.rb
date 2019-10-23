@@ -19,7 +19,7 @@ end
 
 def get_japanese_emoticon(file_path,emoticon)
   binding.pry
-   library=
+   
 end
 
 def get_english_meaning
