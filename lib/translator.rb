@@ -2,8 +2,9 @@
 require "yaml"# require modules here
 
 def load_library (yaml)
-  library= YAML.load_file ("./lib/emoticons.yml")
-  library
+  library= {:get_meaning=>{},
+  :get_emoticon=>{}}
+  YAML.load_file ("./lib/emoticons.yml")
   # code goes here
 end
 
