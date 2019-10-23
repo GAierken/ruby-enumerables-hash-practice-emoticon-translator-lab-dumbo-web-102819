@@ -8,6 +8,7 @@ def load_library (yaml)
   binding.pry
   data = YAML.load_file ("./lib/emoticons.yml")
   data.each do |meaning, array|
+  end
   # code goes here
 end
 
