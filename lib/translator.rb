@@ -6,7 +6,7 @@ def load_library (yaml)
   library= {:get_meaning=>{},
   :get_emoticon=>{}}
   binding.pry
-  YAML.load_file ("./lib/emoticons.yml")
+  data = YAML.load_file ("./lib/emoticons.yml")
   # code goes here
 end
 
