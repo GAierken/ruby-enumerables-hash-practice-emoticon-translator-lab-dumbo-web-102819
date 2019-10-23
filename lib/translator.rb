@@ -11,7 +11,7 @@ def load_library (yaml)
   data.each do |meaning, array|
     english, japanese = array
     library[:get_meaning][japanese] = english
-    library[:get_emoticon]
+    library[:get_emoticon][english] = japanese
   end
  library
   # code goes here
