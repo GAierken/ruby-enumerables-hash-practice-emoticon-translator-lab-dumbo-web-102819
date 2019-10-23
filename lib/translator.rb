@@ -13,6 +13,7 @@ def load_library (yaml)
     library[:get_meaning]<<meaning
     library[:get_emoticon]<<array
   end
+ library
   # code goes here
 end
 
