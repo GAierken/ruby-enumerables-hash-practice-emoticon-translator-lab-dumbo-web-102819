@@ -7,7 +7,7 @@ def load_library (file_path)
   library= {:get_meaning=>{},
   :get_emoticon=>{}}
 
-  data = YAML.load_file ()
+  data = YAML.load_file (file_path)
   data.each do |meaning, array|
     english, japanese = array
     library[:get_meaning][japanese] = meaning
