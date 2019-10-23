@@ -5,7 +5,6 @@ require "pry"# require modules here
 def load_library (yaml)
   library= {:get_meaning=>{},
   :get_emoticon=>{}}
-  binding.pry
   data = YAML.load_file ("./lib/emoticons.yml")
   data.each do |meaning, array|
     binding.pry
